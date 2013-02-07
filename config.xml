@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id        = "com.leisof.iliveticker"
-version   = "0.93.10">
+version   = "0.93.11">
 	<name>iLiveTicker ECP Nachwuchs AWM</name>
 	<description>Mit dieser App können Sie den Liveticker der EC Pfaffenhofen Nachwuchsmannschaften verfolgen.</description>
 	<author href="http://leisof.com" email="support@leisof.com">LeiSofTeam</author>
