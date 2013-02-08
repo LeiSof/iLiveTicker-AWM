@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id        = "com.leisof.iliveticker"
-version   = "0.94.6">
+version   = "0.94.7">
 <!--- Vergiss nicht die Version in der App anzupassen! /> -->
 
 	<name>iLiveTicker ECP Nachwuchs AWM</name>
@@ -25,6 +25,5 @@ version   = "0.94.6">
 	<icon src="res/icon/windows-phone/icon-42.png"  gap:platform="winphone" />
 	<icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 	<preference name="permissions" value="none"/>
-	<!---<access origin="*" />--->
 
 </widget>
