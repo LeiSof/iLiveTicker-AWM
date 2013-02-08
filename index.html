@@ -10,11 +10,20 @@
 		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
 		<script src="phonegap.js"></script>
+		<script language="JavaScript" type="text/javascript">
+			var flag = true;
+			if (flag) {
+				alert("Die App befindet sich noch in der Entwickling bitte regelmäßig über 'Updates suchen' prüfen ob die Version noch aktuell ist");
+				flag = false;
+			}
+		</script>
+
+		</script>
 	</head>
 	<body>
 
 		<!-- Start of first page -->
-		<div data-role="page" id="main" data-title="iLiveTicker AWM V0.94">
+		<div data-role="page" id="main" data-title="iLiveTicker AWM V1.01">
 			<div data-role="header">
 				<h1>
 				<div id="header">
@@ -36,17 +45,19 @@
 					<!---<a href="ticker.php?mannschaftID=7" data-role="button" data-ajax="false">Damen</a>-->
 				</div>
 				<p>
-					<p align="center">Übersicht der kommenden Spiele mit Liveticker</p>
-					<a href="showSpiele.html" data-mini="true" data-role="button" data-icon="grid" data-ajax="false">Liveticker Termine</a>
+				<p>
+					<a href="update.html" data-mini="true" data-role="button" data-icon="grid" data-ajax="false">Update suchen</a>
+				</p>
+				<p align="center">
+					Übersicht der kommenden Spiele mit Liveticker
+				</p>
+				<a href="showSpiele.html" data-mini="true" data-role="button" data-icon="grid" data-ajax="false">Liveticker Termine</a>
 				</p>
 				<div data-role="controlgroup" data-mini="true" align="center">
 					<a href="info.html" data-role="button" data-icon="info">Informationen</a>
 					<a href="http://www.ecp-nachwuchs.de" target="_blank" data-role="button" data-icon="star" data-ajax="false">ECP Nachwuchs</a>
 					<a href="http://www.ecp-liveticker.de" target="_blank"  data-role="button" data-icon="home" data-ajax="false">Desktop Version</a>
 				</div>
-				<p>
-				<a href="update.html" data-mini="true" data-role="button" data-icon="grid" data-ajax="false">Update suchen</a>
-				</p>
 			</div><!-- /content -->
 
 			<div data-role="footer">
