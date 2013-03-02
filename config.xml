@@ -25,5 +25,5 @@ version   = "1.2.11">
 	<icon src="res/icon/windows-phone/icon-42.png"  gap:platform="winphone" />
 	<icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 	<preference name="permissions" value="none"/>
-	
+	<access origin="*" /> 
 </widget>
